@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chalo Chale - Your Travel Companion</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="Index.html">Chalo Chale</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Destination.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Packages.html">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Booking.html">Book Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-signup" href="Signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h1 class="hero-title">Explore the World with Chalo Chale</h1>
+                        <p class="hero-subtitle">Your journey begins here. Discover amazing destinations, create unforgettable memories.</p>
+                        <div class="hero-buttons">
+                            <a href="Destination.html" class="btn btn-primary btn-lg me-3">Explore Destinations</a>
+                            <a href="Booking.html" class="btn btn-outline-light btn-lg">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="search-box">
+                        <div class="row g-3">
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="Where to?">
+                            </div>
+                            <div class="col-md-3">
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <select class="form-select">
+                                    <option>Travelers</option>
+                                    <option>1 Person</option>
+                                    <option>2 People</option>
+                                    <option>3 People</option>
+                                    <option>4+ People</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-primary w-100">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Why Choose Chalo Chale?</h2>
+                    <p class="section-subtitle">We make your travel dreams come true</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                                <path d="M6.428 1.151C6.708.613 7.571.613 7.851 1.151L9.5 4.5l6.228-2.277c.375-.137.79.06.79.477v.915c0 .453-.35.832-.79.938l-6.228 2.277 1.649 3.349c.197.4.042.882-.347 1.086l-1.508.75c-.389.204-.882.042-1.086-.347L6.5 8.149 1.272 10.426c-.375.137-.79-.06-.79-.477v-.915c0-.453.35-.832.79-.938l5.228-1.277-1.649-3.349c-.197-.4-.042-.882.347-1.086l1.508-.75c.389-.204.882-.042 1.086.347z"/>
+                            </svg>
+                        </div>
+                        <h4>Best Flights</h4>
+                        <p>Find the best flight deals at unbeatable prices</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                            </svg>
+                        </div>
+                        <h4>Hotels</h4>
+                        <p>Comfortable stays at top-rated hotels worldwide</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
+                                <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.245.712.44 1.101.59.55.217 1.098.428 1.098.428s.548-.211 1.098-.428c.389-.15.755-.345 1.101-.59a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
+                                <path d="m10.854 5.146-3.5 3.5a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l3.146-3.147a.5.5 0 0 1 .708.708z"/>
+                            </svg>
+                        </div>
+                        <h4>Safe Travel</h4>
+                        <p>Your safety is our top priority</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                                <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+                            </svg>
+                        </div>
+                        <h4>24/7 Support</h4>
+                        <p>Round the clock customer support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section class="destinations-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Popular Destinations</h2>
+                    <p class="section-subtitle">Explore our most loved travel spots</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop" alt="Goa Beaches" class="img-fluid">
+                        </div>
+                        <div class="destination-info">
+                            <h3>Goa Beaches</h3>
+                            <p>Experience the pristine beaches and vibrant nightlife</p>
+                            <div class="destination-meta">
+                                <span>₹15,999</span>
+                                <a href="Booking.html" class="btn btn-sm btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&h=600&fit=crop" alt="Kerala Backwaters" class="img-fluid">
+                        </div>
+                        <div class="destination-info">
+                            <h3>Kerala Backwaters</h3>
+                            <p>Serene houseboat experience in God's Own Country</p>
+                            <div class="destination-meta">
+                                <span>₹18,499</span>
+                                <a href="Booking.html" class="btn btn-sm btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&h=600&fit=crop" alt="Rajasthan Heritage" class="img-fluid">
+                        </div>
+                        <div class="destination-info">
+                            <h3>Rajasthan Heritage</h3>
+                            <p>Discover the royal palaces and rich culture</p>
+                            <div class="destination-meta">
+                                <span>₹22,999</span>
+                                <a href="Booking.html" class="btn btn-sm btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="cta-title">Ready to Start Your Adventure?</h2>
+                    <p class="cta-subtitle">Book your dream vacation today and create memories that last a lifetime</p>
+                    <a href="Booking.html" class="btn btn-primary btn-lg">Book Your Trip</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <h4>Chalo Chale</h4>
+                    <p>Your trusted travel companion for exploring the world's most beautiful destinations.</p>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Destination.html">Destinations</a></li>
+                        <li><a href="Packages.html">Packages</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-contact">
+                        <li>Email: info@chalochale.com</li>
+                        <li>Phone: +91 98765 43210</li>
+                        <li>Address: 123 Travel Street, Mumbai, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mt-4">
+                    <p class="copyright">&copy; 2024 Chalo Chale. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JAVASCRIPT/script.js"></script>
+</body>
+</html>

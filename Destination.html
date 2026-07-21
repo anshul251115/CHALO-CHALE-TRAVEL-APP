@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Chalo Chale</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="Index.html">Chalo Chale</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Destination.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Packages.html">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Booking.html">Book Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-signup" href="Signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Our Destinations</h1>
+                    <p>Explore the most beautiful places in India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="filter-buttons text-center">
+                        <button class="btn btn-filter active" data-filter="all">All</button>
+                        <button class="btn btn-filter" data-filter="beach">Beaches</button>
+                        <button class="btn btn-filter" data-filter="mountain">Mountains</button>
+                        <button class="btn btn-filter" data-filter="heritage">Heritage</button>
+                        <button class="btn btn-filter" data-filter="nature">Nature</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Grid -->
+    <section class="destinations-grid py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop" alt="Goa" class="img-fluid">
+                            <div class="destination-badge">Beach</div>
+                        </div>
+                        <div class="destination-info">
+                            <h3>Goa Beaches</h3>
+                            <p>Experience the pristine beaches, vibrant nightlife, and Portuguese heritage of Goa.</p>
+                            <div class="destination-meta">
+                                <span>₹15,999</span>
+                                <a href="Booking.html" class="btn btn-sm btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&h=600&fit=crop" alt="Kerala" class="img-fluid">
+                            <div class="destination-badge">Nature</div>
+                        </div>
+                        <div class="destination-info">
+                            <h3>Kerala Backwaters</h3>
+                            <p>Serene houseboat experience in God's Own Country with lush green landscapes.</p>
+                            <div class="destination-meta">
+                                <span>₹18,499</span>
+                                <a href="Booking.html" class="btn btn-sm btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&h=600&fit=crop" alt="Rajasthan" class="img-fluid">
+                            <div class="destination-badge">Heritage</div>
+                        </div>
+                        <div class="destination-info">
+                            <h3>Rajasthan Heritage</h3>
+                            <p>Discover the royal palaces, forts, and rich cultural heritage of Rajasthan.</p>
+                            <div class="destination-meta">
+                                <span>₹22,999</span>
+                                <a href="Booking.html" class="btn btn-sm btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="IMAGES/images.jfif" alt="Himachal" class="img-fluid">
+                            <div class="destination-badge">Mountain</div>
+                        </div>
+                        <div class="destination-info">
+                            <h3>Himachal Pradesh</h3>
+                            <p>Adventure in the Himalayas with scenic valleys and snow-capped peaks.</p>
+                            <div class="destination-meta">
+                                <span>₹19,999</span>
+                                <a href="Booking.html" class="btn btn-sm btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="IMAGES/images (1).jfif" alt="Andaman" class="img-fluid">
+                            <div class="destination-badge">Beach</div>
+                        </div>
+                        <div class="destination-info">
+                            <h3>Andaman Islands</h3>
+                            <p>Tropical paradise with crystal clear waters and pristine coral reefs.</p>
+                            <div class="destination-meta">
+                                <span>₹28,999</span>
+                                <a href="Booking.html" class="btn btn-sm btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="IMAGES/images (2).jfif" alt="Kashmir" class="img-fluid">
+                            <div class="destination-badge">Mountain</div>
+                        </div>
+                        <div class="destination-info">
+                            <h3>Kashmir Valley</h3>
+                            <p>Paradise on Earth with stunning Dal Lake and Mughal gardens.</p>
+                            <div class="destination-meta">
+                                <span>₹32,999</span>
+                                <a href="Booking.html" class="btn btn-sm btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="cta-title">Can't Decide?</h2>
+                    <p class="cta-subtitle">Let our travel experts help you choose the perfect destination</p>
+                    <a href="Contact.html" class="btn btn-primary btn-lg">Get Expert Advice</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <h4>Chalo Chale</h4>
+                    <p>Your trusted travel companion for exploring the world's most beautiful destinations.</p>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Destination.html">Destinations</a></li>
+                        <li><a href="Packages.html">Packages</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-contact">
+                        <li>Email: info@chalochale.com</li>
+                        <li>Phone: +91 98765 43210</li>
+                        <li>Address: 123 Travel Street, Mumbai, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mt-4">
+                    <p class="copyright">&copy; 2024 Chalo Chale. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JAVASCRIPT/script.js"></script>
+</body>
+</html>

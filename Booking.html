@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip - Chalo Chale</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="Index.html">Chalo Chale</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Destination.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Packages.html">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Booking.html">Book Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-signup" href="Signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Book Your Trip</h1>
+                    <p>Fill in the details to start your journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section class="booking-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="booking-form">
+                        <h2 class="form-title">Travel Details</h2>
+                        <form>
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <label class="form-label">Full Name *</label>
+                                    <input type="text" class="form-control" placeholder="Enter your full name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" placeholder="Enter your email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Phone Number *</label>
+                                    <input type="tel" class="form-control" placeholder="Enter your phone number" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Destination *</label>
+                                    <select class="form-select" required>
+                                        <option value="">Select destination</option>
+                                        <option value="goa">Goa Beaches</option>
+                                        <option value="kerala">Kerala Backwaters</option>
+                                        <option value="rajasthan">Rajasthan Heritage</option>
+                                        <option value="himachal">Himachal Pradesh</option>
+                                        <option value="andaman">Andaman Islands</option>
+                                        <option value="kashmir">Kashmir Valley</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Travel Date *</label>
+                                    <input type="date" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Return Date *</label>
+                                    <input type="date" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Number of Travelers *</label>
+                                    <select class="form-select" required>
+                                        <option value="">Select travelers</option>
+                                        <option value="1">1 Person</option>
+                                        <option value="2">2 People</option>
+                                        <option value="3">3 People</option>
+                                        <option value="4">4 People</option>
+                                        <option value="5">5+ People</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Package Type *</label>
+                                    <select class="form-select" required>
+                                        <option value="">Select package</option>
+                                        <option value="budget">Budget Package</option>
+                                        <option value="standard">Standard Package</option>
+                                        <option value="premium">Premium Package</option>
+                                        <option value="luxury">Luxury Package</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Special Requests</label>
+                                    <textarea class="form-control" rows="4" placeholder="Any special requirements or preferences"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="terms" required>
+                                        <label class="form-check-label" for="terms">
+                                            I agree to the <a href="#" class="text-primary">Terms and Conditions</a> and <a href="#" class="text-primary">Privacy Policy</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">Submit Booking Request</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Package Info Section -->
+    <section class="package-info-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Package Information</h2>
+                    <p class="section-subtitle">Choose the perfect package for your journey</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="package-card text-center">
+                        <div class="package-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                                <path d="M12.5.5H3.5A2.5 2.5 0 0 0 1 3v10a2.5 2.5 0 0 0 2.5 2.5h9a2.5 2.5 0 0 0 2.5-2.5V3a2.5 2.5 0 0 0-2.5-2.5zM11 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+                            </svg>
+                        </div>
+                        <h4>Budget</h4>
+                        <p class="package-price">Starting from ₹10,000</p>
+                        <ul class="package-features">
+                            <li>Basic accommodation</li>
+                            <li>Local transportation</li>
+                            <li>Breakfast included</li>
+                            <li>Travel guide</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="package-card text-center">
+                        <div class="package-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                        </div>
+                        <h4>Standard</h4>
+                        <p class="package-price">Starting from ₹15,000</p>
+                        <ul class="package-features">
+                            <li>3-star hotels</li>
+                            <li>Private transportation</li>
+                            <li>All meals included</li>
+                            <li>Expert guide</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="package-card text-center">
+                        <div class="package-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16">
+                                <path d="M3.1.113a.5.5 0 0 1 .348.12l.5.5a.5.5 0 0 1-.708.708l-.5-.5a.5.5 0 0 1 .36-.728zM8 2.5a.5.5 0 0 1 .5.5v1.5a.5.5 0 0 1-1 0V3a.5.5 0 0 1 .5-.5zm3.5 1.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5zm-7 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5zm3.5 2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5z"/>
+                            </svg>
+                        </div>
+                        <h4>Premium</h4>
+                        <p class="package-price">Starting from ₹25,000</p>
+                        <ul class="package-features">
+                            <li>4-star resorts</li>
+                            <li>Luxury transportation</li>
+                            <li>All meals + snacks</li>
+                            <li>Personal guide</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="package-card text-center">
+                        <div class="package-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-crown" viewBox="0 0 16 16">
+                                <path d="M8.5 1.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V2a.5.5 0 0 1 .5-.5zm-2 0a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V2a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V2a.5.5 0 0 1 .5-.5zM1 5.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </div>
+                        <h4>Luxury</h4>
+                        <p class="package-price">Starting from ₹40,000</p>
+                        <ul class="package-features">
+                            <li>5-star properties</li>
+                            <li>Private jet/chauffeur</li>
+                            <li>Gourmet dining</li>
+                            <li>Concierge service</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="cta-title">Need Help Booking?</h2>
+                    <p class="cta-subtitle">Our travel experts are available 24/7 to assist you</p>
+                    <a href="Contact.html" class="btn btn-primary btn-lg">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <h4>Chalo Chale</h4>
+                    <p>Your trusted travel companion for exploring the world's most beautiful destinations.</p>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Destination.html">Destinations</a></li>
+                        <li><a href="Packages.html">Packages</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-contact">
+                        <li>Email: info@chalochale.com</li>
+                        <li>Phone: +91 98765 43210</li>
+                        <li>Address: 123 Travel Street, Mumbai, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mt-4">
+                    <p class="copyright">&copy; 2024 Chalo Chale. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JAVASCRIPT/script.js"></script>
+</body>
+</html>
